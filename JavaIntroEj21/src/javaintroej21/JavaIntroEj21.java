@@ -22,7 +22,11 @@ public class JavaIntroEj21 {
     public static void main(String[] args) {
         int[][] matrizM = new int[10][10];
         int[][] matrizP = new int[3][3];
-
+        
+        dibujarMatriz(matrizM);
+        dibujarMatriz(matrizP);
+        
+        isInside(matrizP, matrizM);
     }
 
     public static void dibujarMatriz(int[][] matriz) {
